@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qwen3-subtitle-workflow"
+version = "0.1.0"
+description = "Local Qwen transcription and forced alignment for Chinese SRT subtitles"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = ["rapidfuzz==3.14.6"]
+
+[project.scripts]
+video-subtitle = "video_subtitle.pipeline:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

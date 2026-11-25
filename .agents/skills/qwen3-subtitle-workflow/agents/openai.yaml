@@ -1,0 +1,4 @@
+interface:
+  display_name: "Qwen3 中文字幕流程"
+  short_description: "使用 Qwen3 ASR、校对与对齐制作中文字幕工作流"
+  default_prompt: "使用 $qwen3-subtitle-workflow 依据这段音频和可选原稿生成经校对、已验证的中文字幕 SRT。"
