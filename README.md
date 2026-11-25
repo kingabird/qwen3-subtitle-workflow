@@ -1,5 +1,7 @@
 # Qwen3 中文字幕工作流
 
+简体中文 | [English](README.en.md)
+
 在 Apple Silicon Mac 上把中文口播校对后对齐为 SRT。Agent 按 skill 负责校对和断句，`video-subtitle` 负责本地模型推理、时间轴和格式校验。可以在支持 Agent Skills 的本地 Agent 中调用 skill，也可以在终端独立运行工具。
 
 ## 安装
